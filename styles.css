@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.circular_container {
+    height: 30rem;
+    width: 30rem;
+    background-color: burlywood;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.eyes_position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eyes {
+    height: 10rem;
+    width: 10rem;
+    background-color: rgb(95, 40, 40);
+    border-radius: 100%;
+}
+
+.eyes_2 {
+    height: 10rem;
+    width: 10rem;
+    margin-left: 2rem;
+    background-color: rgb(95, 40, 40);
+    border-radius: 100%;
+}
+
+.mouth_area {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    width: 70%;
+}
+
+.half_mouth_l {
+    height: 7rem;
+    width: 50%;
+    background-color: rgb(95, 40, 40);
+    border-bottom-left-radius: 100%;
+}
+
+.half_mouth_r {
+    height: 7rem;
+    width: 50%;
+    background-color: rgb(95, 40, 40);
+    border-bottom-right-radius: 100%;
+}
